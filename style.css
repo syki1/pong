@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  background-color: #222222;
+}
+
+canvas {
+  position: relative;
+  display: inline-block;
+  left: calc(50% - 500px);
+  top: 10%;
+  border: 2px solid white;
+  background-color: #555555;
+}
+
+span {
+  position: absolute;
+  left: 50%;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: white;
+  color: #4567ab;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #a4744d;
+}
+
+#results {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: #769ab1;
+}
+
+.green {
+  color: #56a389;
+}
+
+.red {
+  color: #a67389;
+}
